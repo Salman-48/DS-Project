@@ -1,12 +1,16 @@
 # DS-Project
 Phone Book 
 Phone Book is created by using Java and Java swing libraries. It is developed by using intellij and Netbeans IDE. It was created by Muhammad Salman Tanveer, Muhammad Farzand, Farhan.
- Description
+
+Description
 Phone Book will allow you to insert , search and delete contact numbers. It will take names and numbers initially and store in it and then the user can search or delete existing contact by using appropriate methods.It will also show you data of the stored number if required to user.
- APPLICATION WORKING:
+
+APPLICATION WORKING:
 This application is created for users to store their contacts.This application contains a window consisting of a table,  search portion , insert portion and delete portion. Initially you will enter a name and number and it will save in the application. If any number is wrong or the user wants to remove it then it will be deleted and there is also an option of search which enables searching of numbers.
+
 JTABLE:
-Here we have created JTable by having 2 labelled columns as “Name” and  “Number” which are Linkedlist and Arraylist  in data structure . 
+Here we have created JTable by having 2 labelled columns as “Name” and  “Number” which are Linkedlist and Arraylist  in data structure. 
+
 WORKING OF INSERT METHOD:
 Insert() Method will take the given name which is passed from HasName() to avoid duplication of names. After that we would move using two nodes cur and prev as cur is always one ahead of prev this and we will check when user input is greater then prev and less than cur and we will insert user name between prev and cur node thus allowing us to sort the list as well as inserting.
 
